@@ -10,6 +10,7 @@ Summary(pl):	Crypt::CAST5 - implementacja szyfru blokowego CAST5 w C
 Name:		perl-Crypt-CAST5
 Version:	0.04
 Release:	1
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
