@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	CAST5
+%define		pdir	Crypt
+%define		pnam	CAST5
 Summary:	Crypt::CAST5 - CAST5 block cipher implementation in C
 Summary(pl):	Crypt::CAST5 - implementacja szyfru blokowego CAST5 w C
 Name:		perl-Crypt-CAST5
