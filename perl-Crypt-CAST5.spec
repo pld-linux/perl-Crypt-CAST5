@@ -8,13 +8,14 @@
 Summary:	Crypt::CAST5 - CAST5 block cipher implementation in C
 Summary(pl):	Crypt::CAST5 - implementacja szyfru blokowego CAST5 w C
 Name:		perl-Crypt-CAST5
-Version:	0.04
+Version:	0.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	79806329ad2f39d31e6770a55a89e199
+# Source0-md5:	f4a876c68885950d5df3c30ede634787
+URL:		http://search.cpan.org/dist/Crypt-CAST5/
 %{?with_tests:BuildRequires:	perl-Test-Simple >= 0.47}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -29,8 +30,8 @@ S. Tavares.
 %description -l pl
 Ten modu³ zawiera implementacjê szyfru blokowego CAST5 w postaci
 skompilowanego kodu C, aby zapewniæ wiêksz± szybko¶æ. CAST5 jest znany
-tak¿e jako CAST-128. Jest to produkt projektu CAST tworzonego przez
-C. Adamsa i S. Tavaresa.
+tak¿e jako CAST-128. Jest to produkt projektu CAST tworzonego przez C.
+Adamsa i S. Tavaresa.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
