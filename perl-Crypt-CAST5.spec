@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	CAST5
 Summary:	Crypt::CAST5 - CAST5 block cipher implementation in C
-Summary(pl):	Crypt::CAST5 - implementacja szyfru blokowego CAST5 w C
+Summary(pl.UTF-8):   Crypt::CAST5 - implementacja szyfru blokowego CAST5 w C
 Name:		perl-Crypt-CAST5
 Version:	0.05
 Release:	1
@@ -27,10 +27,10 @@ compiled C code for increased speed. CAST5 is also known as CAST-128.
 It is a product of the CAST design procedure developed by C. Adams and
 S. Tavares.
 
-%description -l pl
-Ten modu³ zawiera implementacjê szyfru blokowego CAST5 w postaci
-skompilowanego kodu C, aby zapewniæ wiêksz± szybko¶æ. CAST5 jest znany
-tak¿e jako CAST-128. Jest to produkt projektu CAST tworzonego przez C.
+%description -l pl.UTF-8
+Ten moduÅ‚ zawiera implementacjÄ™ szyfru blokowego CAST5 w postaci
+skompilowanego kodu C, aby zapewniÄ‡ wiÄ™kszÄ… szybkoÅ›Ä‡. CAST5 jest znany
+takÅ¼e jako CAST-128. Jest to produkt projektu CAST tworzonego przez C.
 Adamsa i S. Tavaresa.
 
 %prep
