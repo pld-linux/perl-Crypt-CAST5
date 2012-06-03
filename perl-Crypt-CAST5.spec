@@ -13,7 +13,7 @@ Release:	7
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f4a876c68885950d5df3c30ede634787
 URL:		http://search.cpan.org/dist/Crypt-CAST5/
 %{?with_tests:BuildRequires:	perl-Test-Simple >= 0.47}
@@ -61,4 +61,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Crypt/CAST5
 %{perl_vendorarch}/auto/Crypt/CAST5/CAST5.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/CAST5/CAST5.so
-%{_mandir}/man3/*
+%{_mandir}/man3/Crypt::CAST5.3pm*
