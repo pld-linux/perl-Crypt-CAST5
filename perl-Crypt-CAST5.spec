@@ -59,6 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/CAST5.pm
 %dir %{perl_vendorarch}/auto/Crypt/CAST5
-%{perl_vendorarch}/auto/Crypt/CAST5/CAST5.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/CAST5/CAST5.so
 %{_mandir}/man3/Crypt::CAST5.3pm*
